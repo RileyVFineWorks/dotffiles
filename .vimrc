@@ -2,7 +2,6 @@ syntax on
 set backspace=indent,eol,start "fix backspace bug in insert mode
 set number
 hi Normal guibg=NONE ctermbg=NONE
-colorscheme tender
 set nocompatible
 filetype off
 
@@ -23,4 +22,4 @@ Plugin 'vim-airline/vim-airline'
 
 call vundle#end()
 filetype plugin indent on
-
+colorscheme tender
