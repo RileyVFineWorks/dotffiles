@@ -1,25 +1,26 @@
-[colors.bright]
-black = "#75715E"
-blue = "#66D9EF"
-cyan = "#A1EFE4"
-green = "#A6E22E"
-magenta = "#AE81FF"
-red = "#F92672"
-yellow = "#F4BF75"
+[colors.primary]
+background = "#1a1b26"
+foreground = "#c0caf5"
 
 [colors.normal]
-black = "#272822"
-blue = "#66D9EF"
-cyan = "#A1EFE4"
-green = "#A6E22E"
-magenta = "#AE81FF"
-red = "#F92672"
-white = "#F8F8F2"
-yellow = "#F4BF75"
+black = "#32344a"
+red = "#f7768e"
+green = "#9ece6a"
+yellow = "#e0af68"
+blue = "#7aa2f7"
+magenta = "#ad8ee6"
+cyan = "#449dab"
+white = "#787c99"
 
-[colors.primary]
-background = "#272822"
-foreground = "#F8F8F2"
+[colors.bright]
+black = "#444b6a"
+red = "#ff7a93"
+green = "#b9f27c"
+yellow = "#ff9e64"
+blue = "#7da6ff"
+magenta = "#bb9af7"
+cyan = "#0db9d7"
+white = "#acb0d0"
 
 [font]
 size = 14
@@ -28,8 +29,20 @@ size = 14
 family = "Fira Code"
 style = "Regular"
 
+[window]
+opacity = 0.94
+padding = { x = 10, y = 10 }
+
 [shell]
 program = 'C:\Program Files\Git\bin\bash.exe -c "cd; exec bash"'
 
-[window]
-opacity = 0.95
+[cursor]
+style = "Beam"
+unfocused_hollow = true
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
