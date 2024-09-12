@@ -23,6 +23,9 @@ return require('packer').startup(function(use)
     use ('nvim-treesitter/playground')
     use ('tpope/vim-fugitive')
     use ('m4xshen/autoclose.nvim')
+    use ('nvim-lualine/lualine.nvim')
+    use ('nvim-tree/nvim-tree.lua')
+    use ('nvim-tree/nvim-web-devicons')
 
     use {
         'neovim/nvim-lspconfig',
